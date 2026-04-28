@@ -54,12 +54,3 @@ body:
     attributes:
       label: Known limits or constraints
       description: Tool dependencies, prompt budget concerns, partner-specific requirements.
-  - type: checkboxes
-    id: acks
-    attributes:
-      label: Acknowledgments
-      options:
-        - label: The trunk tool is live or has an open issue.
-          required: true
-        - label: I will follow the conventions in CONTRIBUTING.md.
-          required: true

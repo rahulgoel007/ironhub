@@ -11,6 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
+      # When adding a new tool crate, append its path here.
       matrix:
         crate:
           - tools/microsoft-365

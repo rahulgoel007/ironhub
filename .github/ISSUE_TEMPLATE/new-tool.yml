@@ -59,12 +59,3 @@ body:
     attributes:
       label: Known limits or constraints
       description: Rate limits, tenant restrictions, content size caps, regional availability, etc.
-  - type: checkboxes
-    id: acks
-    attributes:
-      label: Acknowledgments
-      options:
-        - label: I will follow the conventions in CONTRIBUTING.md.
-          required: true
-        - label: I will surface API errors honestly and not fabricate success on failure.
-          required: true
